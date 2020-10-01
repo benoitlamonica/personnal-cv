@@ -14,7 +14,7 @@ export default class ListGames extends Component {
         return (
             <Router>
                 <Switch>
-
+                    
                     <Route exact path={this.params.path}>
                         <h1>List of games</h1>
                         <p>A selection of games that i made</p>
@@ -24,7 +24,6 @@ export default class ListGames extends Component {
                     <Route path={this.params.path + '/game1'}>
                         <h1>The shooter game</h1>
                         <ShooterGame />
-                        
                     </Route>
 
                 </Switch>
