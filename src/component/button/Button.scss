@@ -1,0 +1,12 @@
+@import '../../css/variable';
+
+.button {
+    display: block;
+    background-color: $white-color;
+    width: fit-content;
+    color: $bg-color;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 1em;
+    cursor: pointer;
+}

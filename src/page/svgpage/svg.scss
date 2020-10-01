@@ -1,0 +1,8 @@
+@import '../../css/variable';
+svg {
+    rect {
+        fill: $main-color;
+        height: 100px;
+        width: 100px;
+    }
+}

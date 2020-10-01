@@ -1,0 +1,31 @@
+@import '../../css/variable';
+header {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top : 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 1em;
+    background-color: $bg-color;
+    .logo {
+        color : $main-color;
+        font-weight: 700;
+        font-size: 1.2em;
+        letter-spacing: .1em;
+        font-family: $title-font;
+    }
+    a {
+        color: $main-color;
+        text-decoration: none;
+        margin-right: 1em;
+        padding: .5em 1em;
+        border-radius: .5em;
+        &:hover {
+            color: $white-color;
+            background-color: $main-color;
+        }
+    }
+}
